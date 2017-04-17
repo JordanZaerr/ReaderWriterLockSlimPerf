@@ -1,5 +1,5 @@
 # ReaderWriterLockSlimPerf
-Quick spike to test multithreaded locking perf.
+Quick spike to test multi-threaded locking perf in response to [this article](https://blogs.msdn.microsoft.com/pedram/2007/10/07/a-performance-comparison-of-readerwriterlockslim-with-readerwriterlock/) that someone sent me.
 
 Spawns 1000 tasks that aquire a lock, sleep 10ms, and then release the lock.
 
